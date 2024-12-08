@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+      body {
+        background-image: url("https://img.freepik.com/free-photo/sport-concept-with-equipment-frame_23-2148531433.jpg?t=st=1733672453~exp=1733676053~hmac=bbac0857443295dfcf7ce9b9969d7792d062b8fbe334d677673b62d7afdceb3c&w=1060");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: Comic Sans MS;
+        background-attachment: fixed;
+        text-align: justify;
+  }
+      header {
+        text-align: center; background-color: #6dcaff; padding: 20px;
+      }
+    
+      section {
+        padding: 10px;  
+        border: none;
+        border-bottom: 2px solid #4f7df9;
+        width: 900px;
+        text-align: justify;
+      }
+
+      #readm{
+        color: red;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+        text-align: right;
+        padding: 10px;
+      }
+  
+      #bmi-nav {
+        float: left;
+        margin-left: 10px;
+      }
+  
+      nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: inline-block;
+      }
+    
+      nav a:hover {
+        background-color: #20cedb;
+      }
+      
+      #login-btn {
+        background-color: #333;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border: none;
+      }
+  
+  
+      footer {
+        background-color: #2c2f31; text-align: center; color: white; padding: 10px;
+      
+      }
+  
+      
+      button#btn {
+        margin-top: 5%;
+        color: #fff;
+        background: #4f7df9;
+        font-size: 18px;
+        border-radius: 12px;
+        padding: 19px 0;
+        border: none;
+        transition: background 0.2s ease;
+      }
+      button#btn:hover {
+        background: #0044ff;
+      }
+      button a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+      }
